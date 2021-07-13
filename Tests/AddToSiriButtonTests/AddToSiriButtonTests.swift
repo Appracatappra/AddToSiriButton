@@ -6,6 +6,7 @@ final class AddToSiriButtonTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(AddToSiriButton().text, "Hello, World!")
+        let button = SiriButtonView()
+        XCTAssertNotNil(button)
     }
 }
