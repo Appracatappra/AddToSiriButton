@@ -1,25 +1,8 @@
-# AddToSiriButton
-
-![](https://img.shields.io/badge/license-MIT-green) ![](https://img.shields.io/badge/maintained%3F-Yes-green) ![](https://img.shields.io/badge/swift-5.4-green) ![](https://img.shields.io/badge/iOS-17.0-red) 
+# ``AddToSiriButton``
 
 **AddToSiriButton** provides a wrapper around the `UIKit` **Add To Siri** button so it can be used in a SwiftUI project.
 
-<a name="Installation"></a>
-## Installation
-
-**Swift Package Manager** (Xcode 11 and above)
-
-1. In Xcode, select the **File** > **Add Package Dependency…** menu item.
-2. Paste `https://github.com/Appracatappra/AddToSiriButton.git` in the dialog box.
-3. Follow the Xcode's instruction to complete the installation.
-
-> Why not CocoaPods, or Carthage, or blank?
-
-Supporting multiple dependency managers makes maintaining a library exponentially more complicated and time consuming.
-
-Since, the **Swift Package Manager** is integrated with Xcode 11 (and greater), it's the easiest choice to support going further.
-
-## Using AddToSiriButton
+## Overview
 
 **AddToSiriButton** is very easy to use inside a SwiftUI `View`:
 
@@ -71,11 +54,11 @@ struct StoreProductList: View {
 
 Would present the following button on iOS if the user hasn't already added a shortcut:
 
-![](Sources/AddToSiriButton/AddToSiriButton.docc/Resources/Button01.png)
+![](Resources/Button01.png)
 
 Or it would present this button on iOS if the user had already created a shortcut:
 
-![](Sources/AddToSiriButton/AddToSiriButton.docc/Resources/Button02.png)
+![](Resources/Button02.png)
 
 Given the following helper file:
 
@@ -292,8 +275,4 @@ public final class ShortcutManager {
 
 ```
 
-> NOTE: `AddItemIntent` is a **Custom Intent** added to a Swift Project in the code above, how to create and implement an intent is beyond the scope of the document. Please see Apple's documentation for assistance.
-
-# Documentation
-
-The **Package** includes full **DocC Documentation** for all features.
+> `AddItemIntent` is a **Custom Intent** added to a Swift Project in the code above, how to create and implement an intent is beyond the scope of the document. Please see Apple's documentation for assistance.
