@@ -57,7 +57,7 @@ class SiriShortcutViewController: UIViewController {
 }
 
 /// Extends the `SiriShortcutViewController` to conform to the `INUIAddVoiceShortcutViewControllerDelegate` protocol.
-extension SiriShortcutViewController: INUIAddVoiceShortcutViewControllerDelegate {
+extension SiriShortcutViewController: @preconcurrency INUIAddVoiceShortcutViewControllerDelegate {
     
     /// Handles the Voice Shortcut button being dismissed.
     /// - Parameters:
@@ -76,7 +76,7 @@ extension SiriShortcutViewController: INUIAddVoiceShortcutViewControllerDelegate
 }
 
 /// Extends the `SiriShortcutViewController` to conform to the `INUIAddVoiceShortcutButtonDelegate` protocol.
-extension SiriShortcutViewController: INUIAddVoiceShortcutButtonDelegate {
+extension SiriShortcutViewController: @preconcurrency INUIAddVoiceShortcutButtonDelegate {
     
     /// Presents the add shortcut button being presented to the user.
     /// - Parameters:
@@ -100,7 +100,7 @@ extension SiriShortcutViewController: INUIAddVoiceShortcutButtonDelegate {
 }
 
 /// Extends the `SiriShortcutViewController` to conform to the `INUIEditVoiceShortcutViewControllerDelegate` protocol.
-extension SiriShortcutViewController: INUIEditVoiceShortcutViewControllerDelegate {
+extension SiriShortcutViewController: @preconcurrency INUIEditVoiceShortcutViewControllerDelegate {
     
     /// Handles the shortcut being updated.
     /// - Parameters:
