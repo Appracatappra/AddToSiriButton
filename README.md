@@ -1,6 +1,6 @@
 # AddToSiriButton
 
-![](https://img.shields.io/badge/license-MIT-green) ![](https://img.shields.io/badge/maintained%3F-Yes-green) ![](https://img.shields.io/badge/swift-6.0-green) ![](https://img.shields.io/badge/iOS-18.0-red) 
+![](https://img.shields.io/badge/license-MIT-green) ![](https://img.shields.io/badge/maintained%3F-Yes-green) ![](https://img.shields.io/badge/swift-6.4-green) ![](https://img.shields.io/badge/iOS-26.0-red) 
 
 **AddToSiriButton** provides a wrapper around the `UIKit` **Add To Siri** button so it can be used in a SwiftUI project.
 
